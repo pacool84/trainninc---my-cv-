@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Link } from 'react-router-dom';
 import './App.css';
 import Main from './components/Main';
 
@@ -9,18 +10,18 @@ function App() {
     <Layout>
         <Header title="Title" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <a to="/">Link</a>
+                <a to="/">Link</a>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <a to="/">Link</a>
+                <a to="/">Link</a>
             </Navigation>
         </Drawer>
         <Content>
