@@ -6,21 +6,24 @@ import Main from './components/Main';
 
 function App() {
   return (
-    <div className="demo-big-content">
+    <div className="demo-big-content" >
     <Layout>
-        <Header title="Title" scroll>
+        <Header style={{display: 'flex'}} className="header-nav" title="Francsico Lopez Campos" scroll>
             <Navigation>
                 <Link to="/">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
-                <a to="/">Link</a>
+                <Link to="/contact">Contact</Link>
                 <a to="/">Link</a>
             </Navigation>
+
+            
         </Header>
-        <Drawer title="Title">
-            <Navigation>
+
+        <Drawer title="@babasyop">
+            <Navigation style={{color: 'white'}}>
                 <Link to="/">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
-                <a to="/">Link</a>
+                <Link to="contact">Contact</Link>
                 <a to="/">Link</a>
             </Navigation>
         </Drawer>
