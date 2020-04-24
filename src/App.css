@@ -107,6 +107,44 @@
   height: 30px;
 }
 
-@media screen and (max-width: '1015px'){
+/* About Component */
 
+.container-about{
+  background: #43C6AC;
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC); 
+  background: linear-gradient(to right, #191654, #43C6AC);
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-top: 1px solid whitesmoke;
+  border-left: 1px solid whitesmoke;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+
+}
+
+.container-about p{
+  margin-top: 25px;
+  color: whitesmoke;
+  font-family: fantasy;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px;
+  text-align: justify;
+  text-align: center;
+  line-height: 50px;
+}
+
+.container-cards{
+  width: 100%;
+  color: whitesmoke;
+  font-family: fantasy;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px;
+}
+
+
+@media screen and (max-width: '1015px'){
+  
 }
