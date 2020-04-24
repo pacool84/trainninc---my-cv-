@@ -187,5 +187,98 @@
   font-weight: bold;
 }
 
+/* SKILLS */
+
+.skills{
+  list-style: none;
+  width: 700px;
+  margin-left: 5%;
+  color: whitesmoke;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 10px;
+  font-weight: bold;
+}
+
+.skills h1 {
+  font-family: fantasy;
+}
+
+.skills li{
+  margin: 20px 0;
+}
+
+.bar {
+  background: #353b48;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+
+.project {
+  width: 90%;
+  animation: project 2s;
+
+}
+
+.process {
+  width: 95%;
+  animation: process 3s;
+}
+
+.leadership{
+  width: 90%;
+  animation: leadership 1s;
+}
+
+.implementation{
+  width: 85%;
+  animation: implementation 2s;
+}
+
+
+@keyframes project {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes process {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes leadership {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes implementation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+
 @media screen and (max-width: "1015px") {
 }

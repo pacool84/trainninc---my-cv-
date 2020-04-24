@@ -19,7 +19,7 @@ class AboutMe extends Component {
           </section>
 
           <section className="card-javascript">
-            <p>Escuela de Javascript</p>
+            <p>Javascript School</p>
             <img src={jsSchool}></img>
           </section>
 
@@ -28,7 +28,30 @@ class AboutMe extends Component {
             <img src={netecLogo}></img>
           </section>
         </div>
+        
+        <div className="skills">
+            <h1>My Others Skills</h1>
+            <li>
+            <h5>Project Managment</h5>
+            <span className="bar"><span className="project"></span></span>
+            </li>
+            <li>
+            <h5>Team Leadership</h5>
+            <span className="bar"><span className="leadership"></span></span>
+            </li>
+            <li>
+            <h5>Process Managment</h5>
+            <span className="bar"><span className="process"></span></span>
+            </li>
+            <li>
+            <h5>Technological Solutions Implementations</h5>
+            <span className="bar"><span className="implementation"></span></span>
+            </li>
+           
+        </div>
       </div>
+
+        
     );
   }
 }
